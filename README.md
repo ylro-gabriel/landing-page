@@ -1,1 +1,1 @@
-# landing-page
+My second project in The Odin Project
