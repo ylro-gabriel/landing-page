@@ -78,7 +78,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px;
+    padding: 70px;   
+    margin-left: -7px;
+    margin-right: -8px;
  
  }
  .sectwo-container img {
@@ -87,8 +89,8 @@ button {
  }
  .sectwo-container {
     display: flex ;
-   
     justify-content: space-around;
+
  }
 .two-img {
     display: flex;
@@ -108,7 +110,8 @@ button {
     flex-direction: column;
     padding: 70px;
     align-items: center;
-    width: ;
+    margin-left: -7px;
+    margin-right: -8px;
 }
 .section-three .three-item1 {
     width: 900px;
@@ -116,6 +119,7 @@ button {
 .three-item2 {
     align-self: flex-end;
     font-weight: bold;
+    margin-right: 40px;
     
 }
 /*SECTION FOUR CLASSES*/
@@ -125,6 +129,8 @@ button {
     color: #fff;
     display: flex;
     justify-content: center;
+    margin-left: -7px;
+    margin-right: -8px;
 }
 .blue-container {
     background-color: #3882f6;
