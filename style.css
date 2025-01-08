@@ -51,26 +51,29 @@ button {
  /*SECTION ONE CLASSES*/
 
  .section-one {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #fff;
     display: flex;
     padding: 70px;
+    gap: 30px;
  }
  .main-text {
     font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
    
  }
  .one-left {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 425px;
  }
  .sectionone-img {
     width: 450px;
-    height: 160px;
+    height: 300px;
     display: flex;
-  
+    margin-left: 20px;
  }
  /*SECTION TWO CLASSES*/
  .section-two {
@@ -84,12 +87,14 @@ button {
  
  }
  .sectwo-container img {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
  }
  .sectwo-container {
     display: flex ;
     justify-content: space-around;
+    width: 1000px;
 
  }
 .two-img {
@@ -98,7 +103,7 @@ button {
     align-items: center;
 }
 .two-img p {
-    width: 120px;
+    width: 200px;
 }
 /*SECTION THREE CLASSES*/
 .section-three {
@@ -113,13 +118,14 @@ button {
     margin-left: -7px;
     margin-right: -8px;
 }
-.section-three .three-item1 {
+.sec3-contain {
     width: 900px;
+    display: flex;
+    flex-direction: column;
 }
 .three-item2 {
     align-self: flex-end;
     font-weight: bold;
-    margin-right: 40px;
     
 }
 /*SECTION FOUR CLASSES*/
@@ -149,6 +155,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 40px;
     color: #fff;
 }
